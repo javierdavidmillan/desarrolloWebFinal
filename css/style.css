@@ -43,6 +43,41 @@ main {
   transition: all 300ms; }
 
 /* GRID */
+.light-box {
+  display: none; }
+  .light-box__img {
+    width: 60rem;
+    padding: 4rem;
+    max-width: 100%; }
+
+.light-box:target {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.cerrar {
+  display: block;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  color: white;
+  text-decoration: none; }
+
+.arrow {
+  display: block;
+  position: relative;
+  top: 2rem;
+  padding: 1rem;
+  color: white;
+  text-decoration: none; }
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
