@@ -17,6 +17,9 @@
     <title>Descripción Memories. Buenos Aires.</title>
     <meta name="description" content="Conocé más sobre nosotros, nuestro arte y concepto en fotografía.">
     <link rel="shortcut icon" href="style/images/favicon.png">
+    <!-- ANIMACION SCROLL -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -36,7 +39,10 @@
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
                         </li>
-                        <!-- submenu -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">Galería<span class="sr-only">(current)</span></a>
+                        </li>
+                        <!-- submenu 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -48,6 +54,7 @@
                                 <a class="dropdown-item" href="galeria.html">Estudio</a>
                                 <a class="dropdown-item" href="galeria.html">Noche</a>
                             </div>
+                            -->
                         <li class="nav-item active">
                             <a class="nav-link" href="nosotros.html">Nosotros</a>
                         </li>
@@ -80,7 +87,6 @@
     </header>
     <div class="divider"></div>
     <main>
-        <!-- START GRID -->
         <div class="container">
             <div class="row">
                 <div class="col-12 title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
@@ -95,11 +101,12 @@
                 </div>
                 <div class="col-md-6">
                     <ul>
-                        <li class="parrafoNosotros">Memories fue creada para ser original 
-                             y ser parte de los momentos importantes. 
+                        <li class="parrafoNosotros">Memories fue creada para ser original
+                            y ser parte de los momentos importantes.
                         </li>
                         <li class="parrafoNosotros">
-                            Nuestro trabajo gira en torno a la creatividad, la alegría, las emociones y la concentración. Durante la
+                            Nuestro trabajo gira en torno a la creatividad, la alegría, las emociones y la
+                            concentración. Durante la
                             sesión, nos enfocamos en componer escenarios tradicionales y capturar momentos, conexiones y
                             productos reales. Documentamos la risa, el desorden y los detalles más pequeños. </li>
                         <li class="parrafoNosotros">
@@ -187,6 +194,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
+    <!-- SCROLL -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>

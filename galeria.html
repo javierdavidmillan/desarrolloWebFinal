@@ -2,22 +2,27 @@
 <html lang="en">
 
 <head>
+
     <!-- SASS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- STYLE SHEET CSS -->
-    <link rel="stylesheet" href="style/style.css">
+    <!-- <link rel="stylesheet" href="style/style.css"> -->
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/38d739702e.js" crossorigin="anonymous"></script>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <title>Galería de fotográfia profesional. Buenos Aires.</title>
     <meta name="description"
         content="Mira nuestra galería de fotos, son bodas documentales, productos en contexto y familias llena de vida.">
     <link rel="shortcut icon" href="style/images/favicon.png">
+    <!-- ANIMACION SCROLL -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -38,7 +43,8 @@
                             <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="galeria.html">Galería<span class="sr-only">(current)</span></a>
+                            <a class="nav-link active" href="galeria.html">Galería<span
+                                    class="sr-only">(current)</span></a>
                         </li>
                         <!-- submenu 
                         <li class="nav-item dropdown active">
@@ -96,8 +102,8 @@
                 </div>
             </div>
         </div>
-        <div class="grid">
-            <div class="familia gallery" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+        <div class="gridGaleria">
+            <div class="familia" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                 <a href="#bookFamiliar1" class="link">
                     <h3 class="galeriaTitulos">Book Familiar</h3>
                     <img class="galeria blend" src="style/images/gallery/familia/bookFamiliar.png"
@@ -111,31 +117,32 @@
                         alt="boda en el castillo, pareja se abraza">
                 </a>
             </div>
-            <div class="estudio" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+            <div class="producto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                 <a href="#fotografiaDeProducto1" class="link">
                     <h3 class="galeriaTitulos">Fotografía de Producto</h3>
                     <img class="galeria blend" src="style/images/gallery/producto/fotografiaDeProducto.png"
                         alt="cajon de producto, granadas rojas">
                 </a>
             </div>
-            <div class="contacto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+            <div class="aerea" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                 <a href="#fotografiaAerea1" class="link">
                     <h3 class="galeriaTitulos">Fotografía Aérea</h3>
                     <img class="galeria blend" src="style/images/gallery/aerea/fotografiaAerea.png"
                         alt="atardecer en el mar, desde un dron ">
                 </a>
             </div>
-            <div class="nosotros" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+            <div class="nightlife" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                 <a href="#nightlife1" class="link">
                     <h3 class="galeriaTitulos">Nightlife</h3>
                     <img class="galeria blend" src="style/images/gallery/nightlife/nightlife.png"
                         alt="siluetas en la noche, Buenos Aires nightlife">
                 </a>
             </div>
-            <div class="servicios" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+            <div class="art" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                 <a href="#fineArt1" class="link">
                     <h3 class="galeriaTitulos">Fine Art</h3>
-                    <img class="galeria blend" src="style/images/gallery/art/fineArt.png" alt="cascada galleria fine art ">
+                    <img class="galeria blend" src="style/images/gallery/art/fineArt.png"
+                        alt="cascada galleria fine art ">
                 </a>
             </div>
         </div>
@@ -143,66 +150,66 @@
         <div class="container">
             <div class="row">
                 <div class="light-box" id="bookFamiliar1">
-                    <a href="#bookFamiliar4" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/familia/bookFamiliar.png" alt="concepto familia lifestyle"
+                    <a href="#bookFamiliar9" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/familia/bookFamiliar.png" alt="retrato mujer embarazada"
                         class="light-box__img">
-                    <a href="#bookFamiliar2" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#bookFamiliar2" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="bookFamiliar2">
-                    <a href="#bookFamiliar1" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/familia/bookFamiliar1.png" alt="concepto familia lifestyle"
+                    <a href="#bookFamiliar1" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/familia/bookFamiliar1.png" alt="retrato familiar lifestyle"
                         class="light-box__img">
-                    <a href="#bookFamiliar3" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#bookFamiliar3" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="bookFamiliar3">
-                    <a href="#bookFamiliar2" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/familia/bookFamiliar2.png" alt="concepto familia lifestyle"
-                        class="light-box__img">
-                    <a href="#bookFamiliar4" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#bookFamiliar2" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/familia/bookFamiliar2.png"
+                        alt="retrato mama e hijo en la playa lifestyle" class="light-box__img">
+                    <a href="#bookFamiliar4" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="bookFamiliar4">
-                    <a href="#bookFamiliar3" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/familia/bookFamiliar3.png" alt="concepto familia lifestyle"
+                    <a href="#bookFamiliar3" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/familia/bookFamiliar3.png" alt="retrato familia lifestyle"
                         class="light-box__img">
-                    <a href="#bookFamiliar5" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#bookFamiliar5" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="bookFamiliar5">
-                    <a href="#bookFamiliar4" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/familia/bookFamiliar4.png" alt="concepto familia lifestyle"
+                    <a href="#bookFamiliar4" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/familia/bookFamiliar4.png" alt="retrato de verano familia lifestyle"
                         class="light-box__img">
-                    <a href="#bookFamiliar6" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#bookFamiliar6" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="bookFamiliar6">
-                    <a href="#bookFamiliar5" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/familia/bookFamiliar5.png" alt="concepto familia lifestyle"
+                    <a href="#bookFamiliar5" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/familia/bookFamiliar5.png" alt="retrato de hijo lifestyle"
                         class="light-box__img">
-                    <a href="#bookFamiliar7" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#bookFamiliar7" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="bookFamiliar7">
-                    <a href="#bookFamiliar6" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/familia/bookFamiliar6.png" alt="concepto familia lifestyle"
-                        class="light-box__img">
-                    <a href="#bookFamiliar8" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#bookFamiliar6" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/familia/bookFamiliar6.png"
+                        alt="retrato familia corriendo en el mar lifestyle" class="light-box__img">
+                    <a href="#bookFamiliar8" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="bookFamiliar8">
-                    <a href="#bookFamiliar7" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/familia/bookFamiliar7.png" alt="concepto familia lifestyle"
+                    <a href="#bookFamiliar7" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/familia/bookFamiliar7.png" alt="retrato hermanos abrazados lifestyle"
                         class="light-box__img">
-                    <a href="#bookFamiliar9" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#bookFamiliar9" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="bookFamiliar9">
-                    <a href="#bookFamiliar8" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/familia/bookFamiliar8.png" alt="concepto familia lifestyle"
+                    <a href="#bookFamiliar8" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/familia/bookFamiliar8.png" alt="retrato familia con bebe lifestyle"
                         class="light-box__img">
-                    <a href="#bookFamiliar1" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#bookFamiliar1" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
             </div>
@@ -211,59 +218,59 @@
         <div class="container">
             <div class="row">
                 <div class="light-box" id="fotografiaDeBodas1">
-                    <a href="#fotografiaDeBodas8" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/boda/fotografiaDeBodas.png" alt="concepto familia lifestyle"
-                        class="light-box__img">
-                    <a href="#fotografiaDeBodas2" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fotografiaDeBodas8" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/boda/fotografiaDeBodas.png"
+                        alt="retrato recien casados en un castillo" class="light-box__img">
+                    <a href="#fotografiaDeBodas2" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fotografiaDeBodas2">
-                    <a href="#fotografiaDeBodas1" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/boda/fotografiaDeBodas1.png" alt="concepto familia lifestyle"
-                        class="light-box__img">
-                    <a href="#fotografiaDeBodas3" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fotografiaDeBodas1" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/boda/fotografiaDeBodas1.png"
+                        alt="retrato boda al atardecer frente al mar" class="light-box__img">
+                    <a href="#fotografiaDeBodas3" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fotografiaDeBodas3">
-                    <a href="#fotografiaDeBodas2" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/boda/fotografiaDeBodas2.png" alt="concepto familia lifestyle"
+                    <a href="#fotografiaDeBodas2" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/boda/fotografiaDeBodas2.png" alt="retrato boda vintage"
                         class="light-box__img">
-                    <a href="#fotografiaDeBodas4" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fotografiaDeBodas4" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fotografiaDeBodas4">
-                    <a href="#fotografiaDeBodas3" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/boda/fotografiaDeBodas3.png" alt="concepto familia lifestyle"
+                    <a href="#fotografiaDeBodas3" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/boda/fotografiaDeBodas3.png" alt="retrato general boda civil vintage"
                         class="light-box__img">
-                    <a href="#fotografiaDeBodas5" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fotografiaDeBodas5" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fotografiaDeBodas5">
-                    <a href="#fotografiaDeBodas4" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/boda/fotografiaDeBodas4.png" alt="concepto familia lifestyle"
+                    <a href="#fotografiaDeBodas4" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/boda/fotografiaDeBodas4.png" alt="detalle flor novio"
                         class="light-box__img">
-                    <a href="#fotografiaDeBodas6" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fotografiaDeBodas6" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fotografiaDeBodas6">
-                    <a href="#fotografiaDeBodas5" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/boda/fotografiaDeBodas5.png" alt="concepto familia lifestyle"
+                    <a href="#fotografiaDeBodas5" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/boda/fotografiaDeBodas5.png" alt="recien casados en auto clasico"
                         class="light-box__img">
-                    <a href="#fotografiaDeBodas7" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fotografiaDeBodas7" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fotografiaDeBodas7">
-                    <a href="#fotografiaDeBodas6" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/boda/fotografiaDeBodas6.png" alt="concepto familia lifestyle"
+                    <a href="#fotografiaDeBodas6" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/boda/fotografiaDeBodas6.png" alt="manos tomandose con anillo de boda"
                         class="light-box__img">
-                    <a href="#fotografiaDeBodas8" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fotografiaDeBodas8" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fotografiaDeBodas8">
-                    <a href="#fotografiaDeBodas8" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/boda/fotografiaDeBodas7.png" alt="concepto familia lifestyle"
+                    <a href="#fotografiaDeBodas8" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/boda/fotografiaDeBodas7.png" alt="colocando anillo de boda"
                         class="light-box__img">
-                    <a href="#fotografiaDeBodas1" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fotografiaDeBodas1" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
             </div>
@@ -272,66 +279,66 @@
         <div class="container">
             <div class="row">
                 <div class="light-box" id="fotografiaDeProducto1">
-                    <a href="#fotografiaDeProducto9" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/producto/fotografiaDeProducto.png" alt="concepto familia lifestyle"
+                    <a href="#fotografiaDeProducto9" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/producto/fotografiaDeProducto.png" alt="cajon de fruta granadas"
                         class="light-box__img">
-                    <a href="#fotografiaDeProducto2" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fotografiaDeProducto2" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fotografiaDeProducto2">
-                    <a href="#fotografiaDeProducto1" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/producto/fotografiaDeProducto2.png" alt="concepto familia lifestyle"
+                    <a href="#fotografiaDeProducto1" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/producto/fotografiaDeProducto2.png" alt="flatwhite en la cafeteria"
                         class="light-box__img">
-                    <a href="#fotografiaDeProducto3" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fotografiaDeProducto3" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fotografiaDeProducto3">
-                    <a href="#fotografiaDeProducto2" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/producto/fotografiaDeProducto3.png" alt="concepto familia lifestyle"
+                    <a href="#fotografiaDeProducto2" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/producto/fotografiaDeProducto3.png" alt="zapatos en contexto"
                         class="light-box__img">
-                    <a href="#fotografiaDeProducto4" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fotografiaDeProducto4" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fotografiaDeProducto4">
-                    <a href="#fotografiaDeProducto3" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/producto/fotografiaDeProducto4.png" alt="concepto familia lifestyle"
+                    <a href="#fotografiaDeProducto3" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/producto/fotografiaDeProducto4.png" alt="zapatos en primer plano"
                         class="light-box__img">
-                    <a href="#fotografiaDeProducto5" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fotografiaDeProducto5" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fotografiaDeProducto5">
-                    <a href="#fotografiaDeProducto4" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/producto/fotografiaDeProducto5.png" alt="concepto familia lifestyle"
-                        class="light-box__img">
-                    <a href="#fotografiaDeProducto6" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fotografiaDeProducto4" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/producto/fotografiaDeProducto5.png"
+                        alt="probando el producto, tienda de zapatos" class="light-box__img">
+                    <a href="#fotografiaDeProducto6" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fotografiaDeProducto6">
-                    <a href="#fotografiaDeProducto5" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/producto/fotografiaDeProducto6.png" alt="concepto familia lifestyle"
+                    <a href="#fotografiaDeProducto5" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/producto/fotografiaDeProducto6.png" alt="zapatos en contraste"
                         class="light-box__img">
-                    <a href="#fotografiaDeProducto7" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fotografiaDeProducto7" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fotografiaDeProducto7">
-                    <a href="#fotografiaDeProducto6" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/producto/fotografiaDeProducto7.png" alt="concepto familia lifestyle"
+                    <a href="#fotografiaDeProducto6" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/producto/fotografiaDeProducto7.png" alt="tortas de la cafeteria"
                         class="light-box__img">
-                    <a href="#fotografiaDeProducto8" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fotografiaDeProducto8" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fotografiaDeProducto8">
-                    <a href="#fotografiaDeProducto7" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/producto/fotografiaDeProducto8.png" alt="concepto familia lifestyle"
+                    <a href="#fotografiaDeProducto7" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/producto/fotografiaDeProducto8.png" alt="elementos de novia pre boda"
                         class="light-box__img">
-                    <a href="#fotografiaDeProducto9" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fotografiaDeProducto9" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fotografiaDeProducto9">
-                    <a href="#fotografiaDeProducto8" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/producto/fotografiaDeProducto9.png" alt="concepto familia lifestyle"
+                    <a href="#fotografiaDeProducto8" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/producto/fotografiaDeProducto9.png" alt="anillos de casamiento"
                         class="light-box__img">
-                    <a href="#fotografiaDeProducto1" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fotografiaDeProducto1" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
             </div>
@@ -340,52 +347,52 @@
         <div class="container">
             <div class="row">
                 <div class="light-box" id="fotografiaAerea1">
-                    <a href="#fotografiaAerea7" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/aerea/fotografiaAerea.png" alt="concepto familia lifestyle"
+                    <a href="#fotografiaAerea7" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/aerea/fotografiaAerea.png" alt="atardecer del mar fotografia aerea"
                         class="light-box__img">
-                    <a href="#fotografiaAerea2" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fotografiaAerea2" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fotografiaAerea2">
-                    <a href="#fotografiaAerea1" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/aerea/fotografiaAerea2.png" alt="concepto familia lifestyle"
+                    <a href="#fotografiaAerea1" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/aerea/fotografiaAerea2.png" alt="playa con olas desde un dron"
                         class="light-box__img">
-                    <a href="#fotografiaAerea3" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fotografiaAerea3" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fotografiaAerea3">
-                    <a href="#fotografiaAerea2" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/aerea/fotografiaAerea3.png" alt="concepto familia lifestyle"
+                    <a href="#fotografiaAerea2" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/aerea/fotografiaAerea3.png" alt="atardecer en el monte"
                         class="light-box__img">
-                    <a href="#fotografiaAerea4" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fotografiaAerea4" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fotografiaAerea4">
-                    <a href="#fotografiaAerea3" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/aerea/fotografiaAerea4.png" alt="concepto familia lifestyle"
+                    <a href="#fotografiaAerea3" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/aerea/fotografiaAerea4.png" alt="hombre solo en la cima"
                         class="light-box__img">
-                    <a href="#fotografiaAerea5" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fotografiaAerea5" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fotografiaAerea5">
-                    <a href="#fotografiaAerea4" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/aerea/fotografiaAerea5.png" alt="concepto familia lifestyle"
+                    <a href="#fotografiaAerea4" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/aerea/fotografiaAerea5.png" alt="retrato aereo ciudad"
                         class="light-box__img">
-                    <a href="#fotografiaAerea6" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fotografiaAerea6" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fotografiaAerea6">
-                    <a href="#fotografiaAerea5" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/aerea/fotografiaAerea6.png" alt="concepto familia lifestyle"
-                        class="light-box__img">
-                    <a href="#fotografiaAerea7" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fotografiaAerea5" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/aerea/fotografiaAerea6.png"
+                        alt="paisaje de playa exotico desde un dron" class="light-box__img">
+                    <a href="#fotografiaAerea7" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fotografiaAerea7">
-                    <a href="#fotografiaAerea6" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/aerea/fotografiaAerea7.png" alt="concepto familia lifestyle"
+                    <a href="#fotografiaAerea6" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/aerea/fotografiaAerea7.png" alt="area volcanica con lago"
                         class="light-box__img">
-                    <a href="#fotografiaAerea1" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fotografiaAerea1" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
             </div>
@@ -394,120 +401,120 @@
         <div class="container">
             <div class="row">
                 <div class="light-box" id="nightlife1">
-                    <a href="#nightlife9" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/nightlife/nightlife.png" alt="concepto familia lifestyle"
+                    <a href="#nightlife9" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/nightlife/nightlife.png" alt="contraluz en la disco"
                         class="light-box__img">
-                    <a href="#nightlife2" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#nightlife2" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="nightlife2">
-                    <a href="#nightlife1" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/nightlife/nightlife1.png" alt="concepto familia lifestyle"
+                    <a href="#nightlife1" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/nightlife/nightlife1.png" alt="bartender con mascara"
                         class="light-box__img">
-                    <a href="#nightlife3" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#nightlife3" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="nightlife3">
-                    <a href="#nightlife2" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/nightlife/nightlife2.png" alt="concepto familia lifestyle"
+                    <a href="#nightlife2" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/nightlife/nightlife2.png" alt="retrato joven nightlife"
                         class="light-box__img">
-                    <a href="#nightlife4" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#nightlife4" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="nightlife4">
-                    <a href="#nightlife3" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/nightlife/nightlife3.png" alt="concepto familia lifestyle"
+                    <a href="#nightlife3" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/nightlife/nightlife3.png" alt="remera en la disco"
                         class="light-box__img">
-                    <a href="#nightlife5" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#nightlife5" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="nightlife5">
-                    <a href="#nightlife4" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/nightlife/nightlife4.png" alt="concepto familia lifestyle"
+                    <a href="#nightlife4" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/nightlife/nightlife4.png" alt="grupo de amigos en la disco"
                         class="light-box__img">
-                    <a href="#nightlife6" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#nightlife6" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="nightlife6">
-                    <a href="#nightlife5" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/nightlife/nightlife5.png" alt="concepto familia lifestyle"
+                    <a href="#nightlife5" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/nightlife/nightlife5.png" alt="pareja nightlife lifestyle"
                         class="light-box__img">
-                    <a href="#nightlife7" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#nightlife7" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="nightlife7">
-                    <a href="#nightlife6" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/nightlife/nightlife7.png" alt="concepto familia lifestyle"
+                    <a href="#nightlife6" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/nightlife/nightlife7.png" alt="joven bailando en la noche"
                         class="light-box__img">
-                    <a href="#nightlife8" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#nightlife8" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="nightlife8">
-                    <a href="#nightlife7" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/nightlife/nightlife8.png" alt="concepto familia lifestyle"
+                    <a href="#nightlife7" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/nightlife/nightlife8.png" alt="bolas de boliche"
                         class="light-box__img">
-                    <a href="#nightlife9" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#nightlife9" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="nightlife9">
-                    <a href="#nightlife8" class="arrow"><i class="fas fa-chevron-left"></i></a>
-                    <img src="style/images/gallery/nightlife/nightlife9.png" alt="concepto familia lifestyle"
+                    <a href="#nightlife8" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/nightlife/nightlife9.png" alt="joven se rie en la disco"
                         class="light-box__img">
-                    <a href="#nightlife1" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#nightlife1" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
-                </div>               
+                </div>
             </div>
         </div>
         <!-- LIGHT BOX FINE ART -->
         <div class="container">
             <div class="row">
                 <div class="light-box" id="fineArt1">
-                    <a href="#fineArt7" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <a href="#fineArt7" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
                     <img src="style/images/gallery/art/fineArt.png" alt="concepto familia lifestyle"
                         class="light-box__img">
-                    <a href="#fineArt2" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fineArt2" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fineArt2">
-                    <a href="#fineArt1" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <a href="#fineArt1" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
                     <img src="style/images/gallery/art/fineArt2.png" alt="concepto familia lifestyle"
                         class="light-box__img">
-                    <a href="#fineArt3" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fineArt3" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fineArt3">
-                    <a href="#fineArt2" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <a href="#fineArt2" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
                     <img src="style/images/gallery/art/fineArt3.png" alt="concepto familia lifestyle"
                         class="light-box__img">
-                    <a href="#fineArt4" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fineArt4" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fineArt4">
-                    <a href="#fineArt3" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <a href="#fineArt3" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
                     <img src="style/images/gallery/art/fineArt4.png" alt="concepto familia lifestyle"
                         class="light-box__img">
-                    <a href="#fineArt5" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fineArt5" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fineArt5">
-                    <a href="#fineArt4" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <a href="#fineArt4" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
                     <img src="style/images/gallery/art/fineArt5.png" alt="concepto familia lifestyle"
                         class="light-box__img">
-                    <a href="#fineArt6" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fineArt6" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fineArt6">
-                    <a href="#fineArt5" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <a href="#fineArt5" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
                     <img src="style/images/gallery/art/fineArt6.png" alt="concepto familia lifestyle"
                         class="light-box__img">
-                    <a href="#fineArt7" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fineArt7" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="light-box" id="fineArt7">
-                    <a href="#fineArt6" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <a href="#fineArt6" class="arrowLeft"><i class="fas fa-chevron-left"></i></a>
                     <img src="style/images/gallery/art/fineArt7.png" alt="concepto familia lifestyle"
                         class="light-box__img">
-                    <a href="#fineArt8" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#fineArt1" class="arrowRight"><i class="fas fa-chevron-right"></i></a>
                     <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
                 </div>
             </div>
@@ -585,6 +592,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
+    <!-- SCROLL -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>
