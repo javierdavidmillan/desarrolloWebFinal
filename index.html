@@ -26,28 +26,35 @@
             <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #151515;">
                 <!-- logo -->
                 <a class="navbar-brand" href="index.html"><img src="style/images/logo-light@2x.png"
-                        alt="memoriesphotostories logo" class="logoHeader"></a>
+                        alt="memoriesphotostories favicon" class="logoHeader"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Inicio<span class="sr-only">(current)</span></a>
                         </li>
-                        <!-- submenu -->
-                        <li class="nav-item dropdown">
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">Galería<span class="sr-only">(current)</span></a>
+                        </li>
+                        <!-- submenu 
+                        <li class="nav-item dropdown active">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Galería
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="galeria.html">Bodas</a>
-                                <a class="dropdown-item" href="galeria.html">Verano</a>
-                                <a class="dropdown-item" href="galeria.html">Estudio</a>
-                                <a class="dropdown-item" href="galeria.html">Noche</a>
+                                <a class="dropdown-item" href="#fotografiaDeProducto1">Producto</a>
+                                <a class="dropdown-item" href="#fotografiaDeBodas1">Boda</a>
+                                <a class="dropdown-item" href="#bookFamiliar1">Familia</a>
+                                <a class="dropdown-item" href="#nightlife1">Nightlife</a>
+                                <a class="dropdown-item" href="#fineArt1">Art</a>
+                                <a class="dropdown-item" href="#fotografiaAerea1">Aerea</a>
                             </div>
+                        </li> -->
+
                         <li class="nav-item">
                             <a class="nav-link" href="nosotros.html">Nosotros</a>
                         </li>
@@ -132,30 +139,30 @@
         <div class="grid">
 
             <div class="bodas" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                <a href="galeria.html" class="link">
+                <a href="#fotografiaDeBodas1" class="link">
                     <h3 class="galeriaTitulos">Fotógrafo de Boda</h3>
-                    <img class="galeria blend" src="style/images/gallery/fotografiaDeBodas.png"
+                    <img class="galeria blend" src="style/images/gallery/boda/fotografiaDeBodas.png"
                         alt="boda de pareja, abrazo en el castillo">
                 </a>
             </div>
             <div class="estudio" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                <a href="galeria.html" class="link">
+                <a href="#fotografiaDeProducto1" class="link">
                     <h3 class="galeriaTitulos">Fotografía de Producto</h3>
-                    <img class="galeria blend" src="style/images/gallery/fotografiaDeProducto2.png"
+                    <img class="galeria blend" src="style/images/gallery/producto/fotografiaDeProducto.png"
                         alt="Producto de cafe, latte">
                 </a>
             </div>
             <div class="familia" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                <a href="galeria.html" class="link">
+                <a href="#bookFamiliar1" class="link">
                     <h3 class="galeriaTitulos">Book Familiar</h3>
-                    <img class="galeria blend" src="style/images/gallery/bookFamiliar.png"
+                    <img class="galeria blend" src="style/images/gallery/familia/bookFamiliar.png"
                         alt="niños jugando en la arena, momento Familiar">
                 </a>
             </div>
             <div class="nosotros" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                 <a href="nosotros.html" class="link">
                     <h3 class="galeriaTitulos">Nosotros</h3>
-                    <img class="galeria blend" src="style/images/gallery/fotografiaDeProducto.png"
+                    <img class="galeria blend" src="style/images/gallery/producto/fotografiaDeProducto2.png"
                         alt="cajon de producto, frutas granadas rojas">
                 </a>
             </div>
@@ -172,6 +179,203 @@
                     <img class="galeria blend" src="style/images/gallery/fotografiaLifestyle.png"
                         alt="lifestyle pies juntos en la roca del mar">
                 </a>
+            </div>
+        </div>
+        <!-- LIGHT BOX FAMILIA -->
+        <div class="container">
+            <div class="row">
+                <div class="light-box" id="bookFamiliar1">
+                    <a href="#bookFamiliar4" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/familia/bookFamiliar.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#bookFamiliar2" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="light-box" id="bookFamiliar2">
+                    <a href="#bookFamiliar1" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/familia/bookFamiliar1.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#bookFamiliar3" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="light-box" id="bookFamiliar3">
+                    <a href="#bookFamiliar2" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/familia/bookFamiliar2.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#bookFamiliar4" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="light-box" id="bookFamiliar4">
+                    <a href="#bookFamiliar3" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/familia/bookFamiliar3.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#bookFamiliar5" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="light-box" id="bookFamiliar5">
+                    <a href="#bookFamiliar4" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/familia/bookFamiliar4.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#bookFamiliar6" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="light-box" id="bookFamiliar6">
+                    <a href="#bookFamiliar5" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/familia/bookFamiliar5.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#bookFamiliar7" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="light-box" id="bookFamiliar7">
+                    <a href="#bookFamiliar6" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/familia/bookFamiliar6.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#bookFamiliar8" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="light-box" id="bookFamiliar8">
+                    <a href="#bookFamiliar7" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/familia/bookFamiliar7.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#bookFamiliar9" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="light-box" id="bookFamiliar9">
+                    <a href="#bookFamiliar8" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/familia/bookFamiliar8.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#bookFamiliar1" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- LIGHT BOX BODA -->
+        <div class="container">
+            <div class="row">
+                <div class="light-box" id="fotografiaDeBodas1">
+                    <a href="#fotografiaDeBodas8" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/boda/fotografiaDeBodas.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#fotografiaDeBodas2" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="light-box" id="fotografiaDeBodas2">
+                    <a href="#fotografiaDeBodas1" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/boda/fotografiaDeBodas1.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#fotografiaDeBodas3" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="light-box" id="fotografiaDeBodas3">
+                    <a href="#fotografiaDeBodas2" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/boda/fotografiaDeBodas2.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#fotografiaDeBodas4" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="light-box" id="fotografiaDeBodas4">
+                    <a href="#fotografiaDeBodas3" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/boda/fotografiaDeBodas3.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#fotografiaDeBodas5" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="light-box" id="fotografiaDeBodas5">
+                    <a href="#fotografiaDeBodas4" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/boda/fotografiaDeBodas4.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#fotografiaDeBodas6" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="light-box" id="fotografiaDeBodas6">
+                    <a href="#fotografiaDeBodas5" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/boda/fotografiaDeBodas5.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#fotografiaDeBodas7" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="light-box" id="fotografiaDeBodas7">
+                    <a href="#fotografiaDeBodas6" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/boda/fotografiaDeBodas6.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#fotografiaDeBodas8" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="light-box" id="fotografiaDeBodas8">
+                    <a href="#fotografiaDeBodas8" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/boda/fotografiaDeBodas7.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#fotografiaDeBodas1" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- LIGHT BOX PRODUCTO -->
+        <div class="container">
+            <div class="row">
+                <div class="light-box" id="fotografiaDeProducto1">
+                    <a href="#fotografiaDeProducto9" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/producto/fotografiaDeProducto.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#fotografiaDeProducto2" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="light-box" id="fotografiaDeProducto2">
+                    <a href="#fotografiaDeProducto1" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/producto/fotografiaDeProducto2.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#fotografiaDeProducto3" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="light-box" id="fotografiaDeProducto3">
+                    <a href="#fotografiaDeProducto2" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/producto/fotografiaDeProducto3.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#fotografiaDeProducto4" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="light-box" id="fotografiaDeProducto4">
+                    <a href="#fotografiaDeProducto3" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/producto/fotografiaDeProducto4.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#fotografiaDeProducto5" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="light-box" id="fotografiaDeProducto5">
+                    <a href="#fotografiaDeProducto4" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/producto/fotografiaDeProducto5.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#fotografiaDeProducto6" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="light-box" id="fotografiaDeProducto6">
+                    <a href="#fotografiaDeProducto5" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/producto/fotografiaDeProducto6.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#fotografiaDeProducto7" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="light-box" id="fotografiaDeProducto7">
+                    <a href="#fotografiaDeProducto6" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/producto/fotografiaDeProducto7.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#fotografiaDeProducto8" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="light-box" id="fotografiaDeProducto8">
+                    <a href="#fotografiaDeProducto7" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/producto/fotografiaDeProducto8.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#fotografiaDeProducto9" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="light-box" id="fotografiaDeProducto9">
+                    <a href="#fotografiaDeProducto8" class="arrow"><i class="fas fa-chevron-left"></i></a>
+                    <img src="style/images/gallery/producto/fotografiaDeProducto9.png" alt="concepto familia lifestyle"
+                        class="light-box__img">
+                    <a href="#fotografiaDeProducto1" class="arrow"><i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
+                </div>
             </div>
         </div>
     </main>
