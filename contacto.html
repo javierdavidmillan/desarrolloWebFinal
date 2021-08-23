@@ -90,6 +90,7 @@
                 <h2 class="title__H2">Contactanos</h2>
                 <h1 class="title__H1">Fotografía profesional cerca tuyo</h1>
             </div>
+
             <div class="col-12 containerContacto__flex" data-aos="fade-up" data-aos-duration="1000"
                 data-aos-delay="100">
                 <div class="containerContacto__item">
@@ -106,8 +107,8 @@
                 </div>
             </div>
             <!--FORMULARIO DE CONTACTO -->
-            <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-sdelay="100">
-                <form action="">
+            <div class="container" data-aos="fade-up" data-aos-duration="1100" data-aos-sdelay="100">
+                <form action="contact/vanilla-form.php" method="post" class="vanilla vanilla-form" novalidate>
                     <fieldset>
                         <div class="row fieldset ">
                             <div class="col-md-6 fieldset__item">
@@ -132,9 +133,11 @@
                                     placeholder="Contanos la idea, nosotros la realizamos."></textarea>
                             </div>
                         </div>
-                        <div class="container">
+                        <button type="submit" class="button" data-error="Fix errors"
+                        data-processing="Enviando..." data-success="Gracias!">Enviar mensaje</button>
+                        <!-- <div class="container">
                             <input class="button" type="submit" value="Enviar mensaje">
-                        </div>
+                        </div> -->
 
                     </fieldset>
                 </form>
