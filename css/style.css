@@ -32,16 +32,14 @@ main {
   color: #606060; }
 
 .btn-whatsapp {
-  width: 50px;
-  height: 50px;
   color: black;
   position: fixed;
-  right: 50px;
-  bottom: 50px;
+  right: 0px;
+  bottom: 0px;
   border-radius: 50%;
   line-height: 80px;
   text-align: center;
-  z-index: 999; }
+  z-index: 9909999; }
 
 /* GALERIA */
 .galeria {
@@ -869,13 +867,6 @@ blockquote p {
   font-size: 1rem;
   font-weight: 400;
   text-align: center; }
-
-@media (max-width: 575.98px) {
-  .slide {
-    position: relative;
-    left: -50%;
-    width: 200%;
-    overflow: hidden; } }
 
 /* /////////////// HEADER /////////////// */
 .header {
