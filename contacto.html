@@ -106,8 +106,55 @@
                     <p class="containerContacto__p">+54 11 3615 4636</p>
                 </div>
             </div>
+            
+            <div class="form-container ">
+                <form action="contact/vanilla-form.php" method="post" class="vanilla vanilla-form" novalidate>
+                  <div class="row">
+                    <div class="col-md-6 fieldset">
+                      <div class="fieldset__item">
+                        <input type="text" class="form-control fieldset__input" name="name" placeholder="Your name" required>
+                      </div>
+                      <!--/.form-group -->
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6 pl-10 fieldset">
+                      <div class="fieldset__item">
+                        <input type="email" class="form-control fieldset__input" name="email" placeholder="Your e-mail" required>
+                      </div>
+                      <!--/.form-group -->
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6 pr-10">
+                      <div class="form-group">
+                        <input type="tel" class="form-control" name="tel" placeholder="Phone">
+                      </div>
+                      <!--/.form-group -->
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6 pl-10">
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="subject" placeholder="Subject">
+                      </div>
+                      <!--/.form-group -->
+                    </div>
+                    <!--/column -->
+                    <div class="col-12">
+                      <textarea name="message" class="form-control" rows="3"
+                        placeholder="Type your message here..." required></textarea>
+                      <div class="space20"></div>
+                      <button type="submit" class="btn btn-full-rounded" data-error="Fix errors"
+                        data-processing="Sending..." data-success="Thank you!">Submit</button>
+                      <footer class="notification-box"></footer>
+                    </div>
+                    <!--/column -->
+                  </div>
+                  <!--/.row -->
+                </form>
+                <!--/.vanilla-form -->
+              </div>
             <!--FORMULARIO DE CONTACTO -->
             <div class="container" data-aos="fade-up" data-aos-duration="1100" data-aos-sdelay="100">
+                <div class="divider2"></div>
                 <form action="contact/vanilla-form.php" method="post" class="vanilla vanilla-form" novalidate>
                     <fieldset>
                         <div class="row fieldset ">

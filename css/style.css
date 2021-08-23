@@ -9,6 +9,9 @@ p {
 main {
   text-align: center; }
 
+.divider2 {
+  height: 30px; }
+
 /* BUTTONS */
 .button {
   width: 100%;
@@ -724,6 +727,9 @@ blockquote p {
     font-weight: 400;
     padding-top: 10px;
     padding-bottom: 10px; }
+
+fieldset {
+  padding-top: 20px; }
 
 .fieldset {
   flex-wrap: wrap;
