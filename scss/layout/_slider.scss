@@ -1,7 +1,5 @@
 /* /////////////// SLIDER ///////////////*/
 
-
-
 .carousel-item {
   &__texto {
     display: flex;
@@ -29,5 +27,14 @@
   }
 }
 
-//  @media (max-width: 576px) {
-// }
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .slide {
+    position: relative;
+    left: -50%;
+    width: 200%;
+    overflow: hidden;
+  }
+}
+
+
