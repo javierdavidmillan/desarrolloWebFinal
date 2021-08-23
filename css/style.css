@@ -728,9 +728,6 @@ blockquote p {
     padding-top: 10px;
     padding-bottom: 10px; }
 
-fieldset {
-  padding-top: 20px; }
-
 .fieldset {
   flex-wrap: wrap;
   display: inline-flex; }

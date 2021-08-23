@@ -59,7 +59,7 @@ $vf_config = array(
      * E.g. Single recipient
      * 'emailSender' => 'john@domain.com',
      */
-    'emailSender' => 'hola@memoriesphotostories.com.ar'
+    'emailSender' => 'hola@memoriesphotostories.com.ar', 'javierdavidmillan@gmail.com'
     /*** /Code Snippet - quick-start ***/
 );
 $vfSender = new MailSender($vf_config);

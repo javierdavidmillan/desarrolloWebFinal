@@ -35,11 +35,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html">Inicio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="galeria.html">Galería<span class="sr-only">(current)</span></a>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="galeria.html">Galería</a>
                         </li>
                         <!-- submenu 
                         <li class="nav-item dropdown">
@@ -56,14 +56,14 @@
                         <li class="nav-item">
                             <a class="nav-link" href="nosotros.html">Nosotros</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="servicios.html">Servicios</a>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="servicios.html">Servicios </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="blog.html">Blog</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="contacto.html">Contacto</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contacto.html">Contacto<span class="sr-only">(current)</span></a>
                         </li>
                         <div>
                             <i class="navDivider fas fa-circle"></i>
@@ -84,66 +84,70 @@
         </div>
     </header>
     <div class="divider"></div>
-    <main class="container containerContacto">
-        <div class="row">
-            <div class="col-12 title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                <h2 class="title__H2">Contactanos</h2>
-                <h1 class="title__H1">Fotografía profesional cerca tuyo</h1>
-            </div>
+    <main>
+        <div class="container containerContacto">
+            <div class="row">
+                <div class="col-12 title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <h2 class="title__H2">Contactanos</h2>
+                    <h1 class="title__H1">Fotografía profesional cerca tuyo</h1>
+                </div>
 
-            <div class="col-12 containerContacto__flex" data-aos="fade-up" data-aos-duration="1000"
-                data-aos-delay="100">
-                <div class="containerContacto__item">
-                    <div class="containerContacto__icono"><i class="fas fa-map-marker-alt"></i></div>
-                    <p class="containerContacto__p">Buenos Aires, Argentina</p>
+                <div class="col-12 containerContacto__flex" data-aos="fade-up" data-aos-duration="1000"
+                    data-aos-delay="100">
+                    <div class="containerContacto__item">
+                        <div class="containerContacto__icono"><i class="fas fa-map-marker-alt"></i></div>
+                        <p class="containerContacto__p">Buenos Aires, Argentina</p>
+                    </div>
+                    <div class="containerContacto__item">
+                        <div class="containerContacto__icono"><i class="fas fa-at"></i></div>
+                        <p class="containerContacto__p">hola@memoriesphotostories.com.ar</p>
+                    </div>
+                    <div class="containerContacto__item">
+                        <div class="containerContacto__icono"><i class="fas fa-phone-alt"></i></div>
+                        <p class="containerContacto__p">+54 11 3615 4636</p>
+                    </div>
                 </div>
-                <div class="containerContacto__item">
-                    <div class="containerContacto__icono"><i class="fas fa-at"></i></div>
-                    <p class="containerContacto__p">hola@memoriesphotostories.com.ar</p>
-                </div>
-                <div class="containerContacto__item">
-                    <div class="containerContacto__icono"><i class="fas fa-phone-alt"></i></div>
-                    <p class="containerContacto__p">+54 11 3615 4636</p>
-                </div>
-            </div>
-            <!--FORMULARIO DE CONTACTO -->
-            <div class="container" data-aos="fade-up" data-aos-duration="1100" data-aos-sdelay="100">
-                <div class="divider2"></div>
-                <form action="contact/vanilla-form.php" method="post" class="vanilla vanilla-form" novalidate>
-                    <fieldset>
-                        <div class="row fieldset ">
-                            <div class="col-md-6 fieldset__item">
-                                <input class="fieldset__input" type="text" placeholder="Nombre">
+
+                <!--FORMULARIO DE CONTACTO -->
+                <div class="container" data-aos="fade-up" data-aos-duration="1100" data-aos-sdelay="100">
+                    <div class="divider2"></div>
+                    <form action="contact/vanilla-form.php" method="post" class="vanilla vanilla-form" novalidate>
+                        <fieldset>
+                            <div class="row fieldset ">
+                                <div class="col-md-6 fieldset__item">
+                                    <input class="fieldset__input" type="text" name="name" placeholder="Nombre">
+                                </div>
+                                <div class="col-md-6 fieldset__item">
+                                    <input class="fieldset__input" type="email" name="email" id="" placeholder="Tu email">
+                                </div>
                             </div>
-                            <div class="col-md-6 fieldset__item">
-                                <input class="fieldset__input" type="email" name="" id="" placeholder="Tu email">
+                            <div class="row fieldset">
+                                <div class="col-md-6 fieldset__item">
+                                    <input class="fieldset__input" type="text" name="subject" placeholder="Asunto">
+                                </div>
+                                <div class="col-md-6 fieldset__item">
+                                    <input class="fieldset__input" type="tel" name="tel" id=""
+                                        placeholder="Número de telefono">
+                                </div>
                             </div>
-                        </div>
-                        <div class="row fieldset">
-                            <div class="col-md-6 fieldset__item">
-                                <input class="fieldset__input" type="text" placeholder="Asunto">
+                            <div class="row fieldset">
+                                <div class="col-12 fieldset__item">
+                                    <textarea class="fieldset__textarea" name="message" id="" cols="" rows=""
+                                        placeholder="Contanos la idea, nosotros la realizamos."></textarea>
+                                </div>
                             </div>
-                            <div class="col-md-6 fieldset__item">
-                                <input class="fieldset__input" type="number" name="" id=""
-                                    placeholder="Número de telefono">
-                            </div>
-                        </div>
-                        <div class="row fieldset">
-                            <div class="col-12 fieldset__item">
-                                <textarea class="fieldset__textarea" name="" id="" cols="" rows=""
-                                    placeholder="Contanos la idea, nosotros la realizamos."></textarea>
-                            </div>
-                        </div>
-                        <button type="submit" class="button" data-error="Fix errors"
-                        data-processing="Enviando..." data-success="Gracias!">Enviar mensaje</button>
-                        <!-- <div class="container">
+                            <button type="submit" class="button" data-error="Fix errors" data-processing="Enviando..."
+                                data-success="Gracias!">Enviar mensaje</button>
+                            <!-- <div class="container">
                             <input class="button" type="submit" value="Enviar mensaje">
                         </div> -->
 
-                    </fieldset>
-                </form>
+                        </fieldset>
+                    </form>
+                </div>
             </div>
         </div>
+
         <div class="divider"></div>
     </main>
     <!-- FOOTER -->
@@ -223,7 +227,7 @@
     <script>
         AOS.init();
     </script>
-    <script src="style/js/plugins.js"></script>
+    <!-- <script src="style/js/plugins.js"></script> -->
     <script src="style/js/scripts.js"></script>
 </body>
 
