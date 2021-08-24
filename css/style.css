@@ -34,12 +34,15 @@ main {
 .btn-whatsapp {
   color: black;
   position: fixed;
-  right: 0px;
-  bottom: 0px;
+  right: 10px;
+  bottom: 10px;
   border-radius: 50%;
   line-height: 80px;
   text-align: center;
   z-index: 9909999; }
+
+.whatsapp {
+  width: 5rem !important; }
 
 /* GALERIA */
 .galeria {
@@ -867,6 +870,26 @@ blockquote p {
   font-size: 1rem;
   font-weight: 400;
   text-align: center; }
+
+.sliderDesktop {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1; }
+
+.sliderMobile {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0; }
+
+@media (max-width: 575.98px) {
+  .sliderMobile {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1; }
+  .sliderDesktop {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0; } }
 
 /* /////////////// HEADER /////////////// */
 .header {

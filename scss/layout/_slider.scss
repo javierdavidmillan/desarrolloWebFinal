@@ -27,16 +27,32 @@
   }
 }
 
+.sliderDesktop{
+  display: block !important;
+  visibility:visible !important;
+  opacity: 1;
+}
+.sliderMobile{
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0;
+}
+
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 
-// @media (max-width: 575.98px) {
+ @media (max-width: 575.98px) {
+  .sliderMobile{
+     display: block !important;
+    visibility: visible !important;
+    opacity: 1;
+  }
+  .sliderDesktop{
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0;
+  }  
+}
 
-//   .slide {
-//   position: absolute;
-//    overflow: hidden !important;
-//     left: -50%;
-//     width: 200%;
-//   }
 // }
 // @media (min-width: 577px) {
 //   .slide {
